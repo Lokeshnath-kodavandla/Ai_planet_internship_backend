@@ -40,16 +40,6 @@ This backend service allows users to upload PDF documents and ask natural langua
 
 
 
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file at the root:
-
-```env
-OPENAI_API_KEY=sk-or-xxxxxxxxxxxxxxxxxxxxx
-OPENAI_API_BASE=https://openrouter.ai/api/v1
-
 
 ## 🔄 API Endpoints
 
@@ -84,6 +74,7 @@ OPENAI_API_BASE=https://openrouter.ai/api/v1
 
 **Table: `pdf_documents`**
 
+
 id INTEGER PRIMARY KEY,
 filename TEXT,
 file_path TEXT,
@@ -106,5 +97,3 @@ extracted_text TEXT
 - Document preview integration
 
 ---
-
-
